@@ -1,0 +1,7 @@
+Flask>=0.10.1
+python-telegram-bot
+logging
+GoogleAppEngineCloudStorageClient
+requests
+requests_toolbelt
+

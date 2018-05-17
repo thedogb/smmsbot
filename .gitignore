@@ -5,6 +5,7 @@ __pycache__/
 
 #忽略密钥文件
 credentials.py
+.idea/
 
 # C extensions
 *.so
