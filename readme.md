@@ -6,7 +6,7 @@
 
 1. 下载项目
 ```bash
-git clone
+git clone https://github.com/thedogb/smmsbot.git
 ```
 2. 下载依赖
 ```bash
@@ -39,6 +39,7 @@ pip install -t lib -r requirements.txt
 
 
 ### 注意事项
+* 本项目依然基于python2,请在python2环境下进行部署
 * gae的免费额度有限，请勿滥用
 
 ### TODO
