@@ -21,12 +21,17 @@ pip install -t lib -r requirements.txt
 * 将其中TOKEN修改为你的telegram bot的token。
 * 将<YOUR-APP-NAME> 修改为你的gae的应用名字
 
-`credentials.py`的样例文件为`credentials_example.py`
+> `credentials.py`的样例文件为`credentials_example.py`
 
-token获取方法：在telegram中通过@botFather 创建一个机器人账号，拿到token。具体步骤搜索`新建telegram bot`
-gae应用名称: 在[gae控制台](https://console.cloud.google.com/appengine)获得，形式如https://<YOUR-APP-NAME>.appspot.com
+> token获取方法：在telegram中通过@botFather 创建一个机器人账号，拿到token。具体步骤搜索`新建telegram bot`
 
-4. 设定webhook。
+> gae应用名称: 在[gae控制台](https://console.cloud.google.com/appengine)获得，形式如https://<YOUR-APP-NAME>.appspot.com
+
+4. 将项目上传到gae
+
+   上传步骤参见[这个视频](https://www.youtube.com/watch?v=FRI3QGNWJYI)
+
+5. 设定webhook。
 
 访问https://<YOUR-APP-NAME>.appspot.com/set_webhook 将telegram的webhook绑定到gae的接口上。
 
