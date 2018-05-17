@@ -19,7 +19,7 @@ pip install -t lib -r requirements.txt
 
 编辑`credentials.py`:
 * 将其中TOKEN修改为你的telegram bot的token。
-* 将<YOUR-APP-NAME> 修改为你的gae的应用名字
+* 将`<YOUR-APP-NAME> `修改为你的gae的应用名字
 
 > `credentials.py`的样例文件为`credentials_example.py`
 
@@ -33,7 +33,7 @@ pip install -t lib -r requirements.txt
 
 5. 设定webhook。
 
-访问https://<YOUR-APP-NAME>.appspot.com/set_webhook 将telegram的webhook绑定到gae的接口上。
+访问https://`<YOUR-APP-NAME>`.appspot.com/set_webhook 将telegram的webhook绑定到gae的接口上。
 
 若返回`webhook setup ok`则表示绑定成功
 
@@ -44,9 +44,13 @@ pip install -t lib -r requirements.txt
 ### TODO
 
 - [x] 支持telegram stiker
-
 - [ ] 增加更多图床的支持
 - [ ] 利用googleapi增加图片的缩放、旋转等支持
+
+### 参考项目
+
+* https://github.com/imlonghao/smms-bot
+* https://github.com/sooyhwang/Simple-Echo-Telegram-Bot.git
 
 ## License
 LGPL许可证
